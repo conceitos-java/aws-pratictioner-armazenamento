@@ -1,7 +1,5 @@
 # ☁️ AWS Storage Explorer: Armazenamento na Nuvem! 🚀
 
----
-
 ## Introdução ✨
 
 Bem-vindo(a) ao meu repositório de estudos focado inteiramente em **Serviços de Armazenamento da Amazon Web Services (AWS)**! 👋 Aqui, você encontrará uma coleção organizada das minhas anotações sobre as diversas soluções de armazenamento que a AWS oferece.
@@ -9,8 +7,6 @@ Bem-vindo(a) ao meu repositório de estudos focado inteiramente em **Serviços d
 Meu objetivo é duplo: **consolidar meu próprio conhecimento** sobre tópicos cruciais de armazenamento para a **certificação AWS Certified Cloud Practitioner** (e além!), e ao mesmo tempo, oferecer um **recurso para a comunidade**. Acredito que compartilhar o aprendizado ajuda a desmistificar a nuvem, especialmente em um tema tão fundamental quanto o armazenamento de dados.
 
 Espero que te ajude de alguma forma!
-
----
 
 ## Fundamentos de Gerenciamento na AWS 🛠️
 
@@ -46,11 +42,10 @@ Nesse cenário, sua equipe seria responsável por:
 
 A principal vantagem de um serviço não gerenciado é ter um **maior controle** sobre a administração do banco de dados e do ambiente. No entanto, isso vem com o **custo de uma maior carga de trabalho e responsabilidade operacional**.
 
----
 
 ## Serviços de Armazenamento e Banco de Dados em Foco 💾📊
 
-Aqui, mergulhamos nos principais serviços de armazenamento e banco de dados que estou explorando na AWS.
+Principais serviços de armazenamento e banco de dados que estou estudando na AWS.
 
 ### Amazon Aurora 💡
 
@@ -82,7 +77,6 @@ Aqui, mergulhamos nos principais serviços de armazenamento e banco de dados que
 * **Característica Principal:** Armazena dados como **objetos dentro de "buckets" (baldes)**. É ideal para armazenar qualquer tipo de arquivo (imagens, vídeos, documentos, backups, etc.) de forma segura e com alta disponibilidade.
 * **Caso de Uso:** Servir **conteúdo estático para sites**, armazenar backups, hospedar data lakes para análise de dados, ou como destino para logs de aplicações. É a base para muitas outras soluções na AWS.
 
----
 
 ## Otimizando Custos com S3 💰
 
@@ -102,10 +96,8 @@ Para otimizar custos com o S3, é fundamental entender suas diferentes classes d
 * **Como funciona?** Você pode definir **regras** para que os objetos sejam movidos automaticamente entre diferentes classes de armazenamento (por exemplo, de Standard para Glacier após 30 dias) ou **excluídos** após um determinado período.
 * **Caso de Uso:** Para otimizar o custo com o S3, você pode configurar o S3 Lifecycle para que objetos (como logs antigos) **expirem e sejam automaticamente excluídos** após um determinado número de dias (por exemplo, 30 dias), reduzindo o armazenamento desnecessário e os custos associados.
 
----
 
 ## Contribua! 🤝
 
 Este repositório está em constante construção. Se você tem sugestões, correções ou quer adicionar seu próprio aprendizado, sinta-se à vontade para abrir uma *issue* ou enviar um *pull request*. Toda contribuição é bem-vinda!
 
----
