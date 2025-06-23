@@ -3,11 +3,13 @@
 
 ## Introdução ✨
 
-Estudos focado na categoria **Mensageria, Eventos e Orquestração** da Amazon Web Services (AWS)! 👋 Aqui, vou documentar meu aprendizado, exemplos práticos e descobertas sobre os serviços que permitem que aplicações e sistemas se comuniquem de forma eficiente, reajam a eventos e coordenem fluxos de trabalho complexos na nuvem.
+Estudos focados na categoria **Mensageria, Eventos e Orquestração** da Amazon Web Services (AWS)! 
 
-Meu objetivo é duplo: **consolidar meu próprio conhecimento** para fortalecer minhas habilidades em arquiteturas distribuídas e serverless, e ao mesmo tempo, **compartilhar com a comunidade**. Acredito que compartilhar esses insights pode ajudar outros a entenderem e implementarem padrões de comunicação e automação na AWS.
+### AWS Lambda 💡
 
-Sinta-se à vontade para explorar, aprender junto e até mesmo contribuir com suas próprias percepções. Vamos juntos desvendar como a AWS impulsiona a comunicação e a automação de sistemas!
+* **O que é?** Um serviço de computação serverless (sem servidor) que executa seu código em resposta a eventos.
+* **Característica Principal:** Você não precisa gerenciar servidores. A AWS cuida de todo o provisionamento e gerenciamento da infraestrutura para executar suas funções.
+* **Caso de Uso:** Pode ser acionado por diversos serviços, como uma alteração em um bucket S3 ou uma chamada de API via API Gateway, para processar dados sem a necessidade de uma infraestrutura dedicada.
 
 ## Serviços de Mensageria e Eventos 📬
 
