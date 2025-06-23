@@ -16,7 +16,7 @@ Este repositório está dividido em categorias temáticas, cada uma com seu pró
 
 * **[☁️ Armazenamento](armazenamento.md)**
     * Serviços como S3, Aurora, DynamoDB, Neptune e RDS, e estratégias de otimização de custos.
-* **[⚙️ Automação e Infraestrutura como Código (IaC)](automacaoEiac.md)**
+* **[⚙️ Automação e Infraestrutura como Código (IaC)](automacaoEIac.md)**
     * CloudFormation, CodePipeline e WorkSpaces, para construir e gerenciar infraestrutura de forma programática.
 * **[💻 Computação](computacao.md)**
     * EC2, Elastic IPs, ELB, Auto Scaling e as opções de pagamento, para dimensionar sua capacidade computacional.
